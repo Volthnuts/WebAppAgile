@@ -10,7 +10,7 @@ steps:
 - uses: actions/checkout@v2
 - name: Use Node.js 20
 uses: actions/setup-node@v1
-with:git
+with:
     args: deploy --only hosting
 node-version: '20'
 - name: Install Dependencies
